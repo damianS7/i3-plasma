@@ -21,5 +21,7 @@ Comment=Plasma with i3
 
 ## Requisitos
 i3status-rust (https://raw.githubusercontent.com/greshake/i3status-rust)
-
+i3-gaps
+i3blocks
+i3status
 
