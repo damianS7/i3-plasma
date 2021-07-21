@@ -5,14 +5,14 @@ Mi configuracion de I3 y plasma
 1. Crear el fichero i3-plasma.desktop en /usr/share/xsessions/
 
 2. Pegar el contenido:
-'''
+```
 [Desktop Entry]
 Type=XSession
 Exec=env KDEWM=/usr/bin/i3 /usr/bin/startplasma-x11
 DesktopNames=KDE
 Name=Plasma with i3
 Comment=Plasma with i3
-'''
+```
 3. Seleccionar la session en la pantalla de login (SDDM ...)
 
 4. cd ~/.config/
