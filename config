@@ -10,7 +10,7 @@ client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
 client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
 client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
 client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
-client.background       #F8F8F2RR
+client.background       #F8F8F2
 
 # CUSTOM
 # Fuente para los titulos de las ventanas
@@ -168,7 +168,7 @@ for_window [class="Plasmoidviewer"] floating enable; border none
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="task_dialog"] floating enable
 for_window [class="systemsettings"] floating enable
-for_window [class="(?i)*nextcloud*"] floating disable
+#for_window [class="(?i)*nextcloud*"] floating disable
 for_window [class="plasmashell"] floating enable;
 for_window [title="plasmashell"] floating enable; border none
 #for_window [class="plasmashell"] floating enable; border none
@@ -184,3 +184,4 @@ bindsym $mod+Shift+e exec --no-startup-id qdbus-qt5 org.kde.ksmserver /KSMServer
 #$exe_always compton -f # for nice transitions
 exec --no-startup-id "sh -c 'sleep 10; exec killall plasmashell'"
 exec --no-startup-id nm-applet  # applet de NetworkManager
+exec --no-startup-id redshift -O 4500
