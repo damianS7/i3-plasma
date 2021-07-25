@@ -156,8 +156,8 @@ bar {
 
 ## Plasma Integration
 for_window [class="plasmashell" window_type="notification"] border none;
-
 no_focus [class="plasmashell" window_type="notification"]
+
 for_window [class="Plasma"] floating enable; border none
 for_window [title="plasma-desktop"] floating enable; border none
 for_window [title="win7"] floating enable; border none
@@ -168,11 +168,9 @@ for_window [class="Plasmoidviewer"] floating enable; border none
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="task_dialog"] floating enable
 for_window [class="systemsettings"] floating enable
-#for_window [class="(?i)*nextcloud*"] floating disable
 for_window [class="plasmashell"] floating enable;
 for_window [title="plasmashell"] floating enable; border none
-#for_window [class="plasmashell"] floating enable; border none
-for_window [class="jetbrains-idea-ce" title="Settings"] floating enable
+for_window [class="jetbrains-idea-ce" title="Settings"] floating enable; border none
 
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="task_dialog"] floating enable

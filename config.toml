@@ -47,7 +47,7 @@ critical_swap = 95
 
 [[block]]
 block = "battery"
-interval = 60
+interval = 5
 format = "{percentage}"
 
 [[block]]
