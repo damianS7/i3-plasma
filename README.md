@@ -9,6 +9,9 @@ Instalar los siguientes paquetes
 -i3blocks
 -rofi
 -feh
+-xorg-xbacklight (Para el brillo)
+-network-manager-applet (applet redes)
+-pasystray (applet sonido)
 
 # Como usar I3WM junto con plasma
 1. Crear el fichero i3-plasma.desktop en /usr/share/xsessions/
