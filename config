@@ -23,19 +23,19 @@ for_window [class="^.*"] border pixel 1
 exec feh --bg-scale ~/Pictures/wallpaper3.jpg
 
 # Plasma
-for_window [class="plasmashell" window_type="notification"] border none;
-no_focus [class="plasmashell" window_type="notification"]
+#for_window [class="plasmashell" window_type="notification"] border none
+#no_focus [class="plasmashell" window_type="notification"]
+#for_window [class="Plasma"] floating enable, border none
+#for_window [title="plasma-desktop"] floating enable, border none
+#for_window [window_role="pop-up"] floating enable
+#for_window [window_role="task_dialog"] floating enable
+#for_window [class="systemsettings"] floating enable
+#for_window [class="plasmashell"] floating enable
+#for_window [title="plasmashell"] floating enable, border none
 
-for_window [class="Plasma"] floating enable; border none
-for_window [title="plasma-desktop"] floating enable; border none
-for_window [title="win7"] floating enable; border none
-for_window [class="krunner"] floating enable; border none
-for_window [window_role="pop-up"] floating enable
-for_window [window_role="task_dialog"] floating enable
-for_window [class="systemsettings"] floating enable
-for_window [class="plasmashell"] floating enable;
-for_window [title="plasmashell"] floating enable; border none
-for_window [class="jetbrains-idea-ce" title="Settings"] floating enable; border none
+# Reglas de ventana
+#for_window [class=".*"] floating disable
+for_window [class="jetbrains-idea-ce" title="Settings"] floating enable, fullscreen enable
 
 ####################################
 # Binds de teclado
